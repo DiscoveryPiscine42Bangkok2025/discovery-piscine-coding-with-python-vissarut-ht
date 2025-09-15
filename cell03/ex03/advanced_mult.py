@@ -1,5 +1,6 @@
-inp = input()
-if inp == "":
+import sys
+inp = sys.argv[1:]
+if len(inp) == 0:
     num1 = 0
     while num1 <= 10:
         num2 = 0
