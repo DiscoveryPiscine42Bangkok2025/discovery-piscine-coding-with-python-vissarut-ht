@@ -1,4 +1,6 @@
 # Your method definition 
-def hello():
-    print("Hello, everyone!")
+class main:
+    def hello():
+        print("Hello, everyone!")
+hello = main.hello
 hello()

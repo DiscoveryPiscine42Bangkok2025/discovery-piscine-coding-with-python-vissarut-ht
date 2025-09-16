@@ -1,7 +1,9 @@
 import sys
 
-def downcase_it(var: str):
-    return var.lower()
+class main:
+    def downcase_it(var: str):
+        return var.lower()
+downcase_it = main.downcase_it
 
 arr = sys.argv[1:]
 if len(arr) != 0:
