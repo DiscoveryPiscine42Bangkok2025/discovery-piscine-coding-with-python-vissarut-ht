@@ -29,7 +29,7 @@ def main(board: str):
         
         point = {coor: ("X" if coor in point_checked and val in [".", "K"] else val) for coor, val in point.items()}
         
-        # # uncomment to see the check board
+        # # uncomment to see the chess board
         # print("======================================")
         # for y in range(len(arr_board)):
         #     for x in range(len(arr_board[y])):
